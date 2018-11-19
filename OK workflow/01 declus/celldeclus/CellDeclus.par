@@ -1,0 +1,14 @@
+                  Parameters for CELLDECLUS
+                  *************************
+
+START OF PARAMETERS:
+data.dat                    -file with data
+1   2   0   3               -  columns for X, Y, Z, and variable
+-1.0e21     1.0e21          -  trimming limits
+CellDeclusSumm.dat          -file for summary output
+CellDeclus.dat              -file for output with data and weights
+1.0   1.0                   -Y and Z cell anisotropy (Ysize=size*Yanis)
+24  1.0  25.0               -number of cell sizes, min size, max size
+-1  6.0                     -cell size to keep: -1 = minimum
+                                                 0 = specified
+                                                +1 = maximum

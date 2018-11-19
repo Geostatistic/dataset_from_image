@@ -1,0 +1,28 @@
+START OF PARAMETERS:
+1                       -number of data files to plot
+largedata10.dat         -data file 3 OK
+0                       -scattered or gridded? (gridded = 1)
+2 3 4 5                 -columns for X,Y,Z,Var
+0.0001   1.0e21         -trimming limits
+2  0  5  7              -line width (0=none), dashing, bullet size (0=none), color
+Swath.ps                -file for Postscript output
+45  0                   -azimuth, dip
+40                      -number of bins
+0 -1                    -X min and max
+0 0.4  0                -Y min and max, (0=arith, 1=log) (max<min for auto scaling based on data file #1)
+0                       -plot histogram of the bin count of the first data file (0=no, 1=yes)
+Swath                   -title
+Distance                -X axis label (default=get from data file #1)
+Copper Grade            -y axis label (default=get from data file #1)
+0   25  75                -error bars?(1=yes), lower percentile, upper percentile
+
+
+******************************************
+Can remove lines below to shorten par file
+******************************************
+
+BLOCK FOR USER DEFINED LEGEND:
+1  1  .7               -plot a legend for these shapes (1=yes),x,y between -1=left 1=right
+Data                   -label for data set 1
+ID2                    -label for data set 2
+OK                     -label for data set 3

@@ -1,0 +1,17 @@
+              Parameters for GTCURVE_SIM
+              **************************
+
+START OF PARAMETERS:
+10                            -number of realizations
+350   170     1               -number of cells in x, y, and z
+0.1 0.9                       -lower and upper pvalues
+backtr.gsb                    -file with data
+1   0                         -  columns for grade and weight
+-5   1.0e21                   -  trimming limits
+2.0                           -clipping limit (upper limit)
+gtcurve_sim.out               -file for numerical output
+gtcurve_sim.ps                -file for postscript output
+25   0.0    2.0               -cutoff: num, min and max
+     0.0    1.0               -tonnes:      min and max
+     0.0    2.0               -grade:       min and max
+Grade - Tonnage Curve         -title for plot

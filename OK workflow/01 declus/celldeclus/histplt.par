@@ -1,0 +1,15 @@
+Parameters for CELLDECLUS
+*************************
+
+START OF PARAMETERS:
+dados/dataset01_dense_samp.dat                    -file with data
+1 2 0 3                   -columns for X, Y, Z, and variable
+-1.0e21     1.0e21          -trimming limits
+01 declus/sumoutfl.out                  -file for summary output
+01 declus/dataoutfl.out                 -file for output with data and weights
+1 1                      -Y and Z cell anisotropy (Ysize=size*Yanis)
+50 30 200                  -number of cell sizes, min size, max size
+-1  6.0                     -cell size to keep: -1 = minimum
+0 = specified
++1 = maximum
+

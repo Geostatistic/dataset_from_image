@@ -1,0 +1,6 @@
+PROGRAM: gtcurve_sim
+VERSION: 2.1.0
+AUTHOR: Chad Neufeld, Latest Version from Ryan Barnett
+DATE: April 19, 2018
+COMMENTS: Added GSB functionality and a demo.
+

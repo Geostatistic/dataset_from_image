@@ -1,0 +1,25 @@
+START OF PARAMETERS:
+2                       -number of data files to plot
+01 declus/dataoutfl.out             -data file
+0                       -   scattered or gridded? (gridded = 1)
+2 3 0 4                 -   columns for X,Y,Z,Var
+0.0001   1.0e21         -   trimming limits
+2  1  5  1              -   line width (0=none), dashing, bullet size (0=none), color
+03 OK/kt3d_OK.out               -data file
+1                       -   scattered or gridded? (gridded = 1)
+1                       -   column number
+50 8.5 5.0 
+58 8.5 5.0 
+1 0.5 1.0
+0.0001   1.0e21         -   trimming limits
+2  0  0  2              -   line width (0=none), dashing, bullet size (0=none), color
+04 swathplots/swath_vert.ps                -file for Postscript output
+0 0                   -azimuth, dip
+20                      -number of bins
+0 -1                    -X min and max
+0 -1 0                -Y min and max, (0=arith, 1=log) (max<min for auto scaling based on data file #1)
+0                       -plot histogram of the bin count of the first data file (0=no, 1=yes)
+Swath                   -title
+Distance                -X axis label (default=get from data file #1)
+Grade            -y axis label (default=get from data file #1)
+1   25  75                -error bars?(1=yes), lower percentile, upper percentile

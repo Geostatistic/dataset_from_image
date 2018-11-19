@@ -1,0 +1,32 @@
+            Parameters for GTCURVE_PLOT
+            ***************************
+
+START OF PARAMETERS:
+ 2  0.5                       -number of curves, bullet size
+gtcurve_1.out                 -1 file with gtcurve
+ 1  2  3                      -   columns for cutoff, tons, and grade
+0.5   0   0   10              -   line width, dashing, points?, colour
+gtcurve_2.out                 -2 file with gtcurve
+ 1  2  3                      -   columns for cutoff, tons, and grade
+0.5   0   0   10              -   line width, dashing, points?, colour
+gtcurve_plot.ps               -file for postscript output
+     0.0    3.0               -cutoff:      min and max
+     0.0    1.0               -tonnes:      min and max
+     0.0    6.0               -grade:       min and max
+Grade - Tonnage Curve         -title for plot
+ 0   0.5   1.0                -plot legend(0=no, 1=yes), xpos, ypos
+GT-Curve 1: Kriging           -title for curve 1
+GT-Curve 2: Simulation        -title for curve 2
+
+
+Color Codes for the curves:
+      1=red, 2=orange, 3=yellow, 4=light green, 5=green, 6=light blue,
+      7=dark blue, 8=violet, 9=white, 10=black, 11=purple, 12=brown,
+      13=pink, 14=intermediate green, 15=gray 16=gray10, 17=gray20, 18=gray30,
+      19=gray40, 20=gray50, 21=gray60 22=gray70, 23=gray80, 24=gray90
+
+
+Dashing Codes for the curves:
+ 1 = [40 20], 2 = [13 14 13 20], 3 = [12 21 4 21], 4 = [10 10],
+ 5 = [20 20], 6 = [30 30],  7 = [40 40], 8 = [ 3  3],
+ 9 = [ 5  5],  10 = [ 8  8]

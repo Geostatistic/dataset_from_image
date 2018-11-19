@@ -1,0 +1,14 @@
+                 Parameters for GTCURVE
+                 **********************
+
+START OF PARAMETERS:
+GCdata.dat                    -file with data
+3   0                         -  columns for grade and weight
+-1.0e21   1.0e21              -  trimming limits
+ 15.0                         -clipping limit (upper limit)
+gtcurve.out                   -file for numerical output
+gtcurve.ps                    -file for postscript output
+25   0.0    2.0               -cutoff: num, min and max
+     0.0    1.0               -tonnes:      min and max
+     0.0    2.0               -grade:       min and max
+Grade - Tonnage Curve         -title for plot
